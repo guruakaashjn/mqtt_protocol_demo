@@ -1,0 +1,16 @@
+{
+  "name": "mqtt_protocol_script",
+  "version": "1.0.0",
+  "main": "mqttApp.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon mqttApp.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "mqtt": "^5.10.4"
+  }
+}
