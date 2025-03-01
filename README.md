@@ -108,7 +108,7 @@ node airPurifier.js
      http://127.0.0.1:3000/api/v1/air-purifier/schedule
      ```
 
-   - **API Request**
+   - **API Request Body**
 
      ```
      {
@@ -119,7 +119,7 @@ node airPurifier.js
      }
      ```
 
-   - **API Response**
+   - **API Response Body**
 
      ```
      {
@@ -140,7 +140,7 @@ node airPurifier.js
      http://127.0.0.1:3000/api/v1/air-purifier/pre-clean
      ```
 
-   - **API Request**
+   - **API Request Body**
 
      ```
      {
@@ -149,10 +149,10 @@ node airPurifier.js
      }
      ```
 
-   - **API Response**
+   - **API Response Body**
      ```
      {
-     "status": "Pre-cleaning started"
+         "status": "Pre-cleaning started"
      }
      ```
 
