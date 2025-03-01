@@ -2,22 +2,24 @@
 
 ### Demonstration of Air Purifier's communication with the system via MQTT protocol.
 
+<br>
+
 ## **MQTT protocol**
 
-**What is MQTT protocol**
+**What is MQTT protocol?**
 
 - MQTT stands for Message Queuing Telemetry Transport, its a simple, lightweight messaging protocol used to establish communication between multiple devices.Its often used for Internet of Things (IoT) devices like smart sensors and variables.
 - MQTT works on Publish-Subscribe Model
 
-**What are the main components of publish-subscribe model**
+**What are the main components of publish-subscribe model?**
 
-- Two Main components of MQTT Protocol are :-
-  1. MQTT Client
-     - It can be both Publisher and Subscriber.
-     - Client publishes or subscribes messages on different topics to brokers.
-  2. MQTT Publisher
-     - It is the heart of the publish/subscribe protocol.
-     - Is is the central server that receives messages and filters them based on their topics. It then sends these messages to respective clients that have subscribed to those different topics.
+- **Two Main components of MQTT Protocol are :-**
+  **1. MQTT Client**
+  - It can be both Publisher and Subscriber.
+  - Client publishes or subscribes messages on different topics to brokers.
+    **2. MQTT Publisher**
+  - It is the heart of the publish/subscribe protocol.
+  - Is is the central server that receives messages and filters them based on their topics. It then sends these messages to respective clients that have subscribed to those different topics.
 
 ## **Project installation and setup**
 
@@ -70,11 +72,11 @@ node airPurifier.js
 
 ## **Features of the project**
 
-- Public Free Message Broker used for the demonstration purposes only.
+- **Public Free Message Broker used for the demonstration purposes only.**
 
   - `mqtt://mqtt.eclipseprojects.io`
 
-- MQTT Topics used in the project are :-
+- **MQTT Topics used in the project are :-**
   - `iot/airpurifier/sensors`
     - The air purifier publishes essential sensor data (temperature, humidity, pm level, current fan speed) to the MQTT broker.
     - The Backend System subscribes and listens to this topic and creates a new record in the MongoDB database.
@@ -83,17 +85,17 @@ node airPurifier.js
     - The air purifier subscribes and listens to this topic and sets its fan speed to the received fan speed.
   - `iot/airpurifier/fan/ack`
     - The air purifier upon listening to the `iot/airpurifier/fan/set` topic, sends an acknowledgement topic to the MQTT broker.
-- Fan has 3 modes
+- **Fan has 3 modes**
   - `active` mode (sets fan speed to 100)
   - `normal` mode (sets fan speed to 50)
   - `default` mode (sets fan speed to 0)
-- Fan power on functionality
+- **Fan power on functionality**
   - If fan speed is greater then 0, the fan is switched on.
   - Else it is switched off.
 
-## **APIs used**
+## **APIs used (Postman Collection)**
 
-1. To schedule the air purifier to run and stop the fan at their respective times.
+1. **To schedule the air purifier to run and stop the fan at their respective times.**
 
    - **Effects**
 
@@ -125,7 +127,7 @@ node airPurifier.js
      }
      ```
 
-2. To pre-clean the air purifier with any given fan mode
+2. **To pre-clean the air purifier with any given fan mode.**
 
    - **Effects**
 
