@@ -39,6 +39,19 @@ git clone https://github.com/guruakaashjn/mqtt_protocol_demo.git
 npm i
 ```
 
+**5. Create environment file (.env) inside the root folder**
+
+```
+touch .env
+```
+
+**6. Add the below commands in the created .env file**
+
+```
+MONGO_URL=mongodb://localhost:27017/iot_db
+SERVER_PORT=3000
+```
+
 ## **Steps to run the server**
 
 **1. Open new terminal window**
