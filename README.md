@@ -95,7 +95,7 @@ node airPurifier.js
 - Sample output screenshots from the Air Purifier simulator
   <img src="outputImages/air_purifier_cmd.png" width="50%" alt="Air Purifier CMD output screenshots">
 - Sample output screenshots from the
-  <img src="(outputImages/server_cmd.png" width="50%" alt="Server CMD output screenshots">
+  <img src="outputImages/server_cmd.png" width="50%" alt="Server CMD output screenshots">
   <img src="outputImages/server_cmd_2.png" width="50%" alt="Server CMD output screenshots">
 
 ## **APIs used (Postman Collection)**
