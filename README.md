@@ -45,7 +45,7 @@ npm i
 touch .env
 ```
 
-**6. Add the below commands in the created .env file**
+**6. Add the below lines of code in the above created .env file**
 
 ```
 MONGO_URL=mongodb://localhost:27017/iot_db
