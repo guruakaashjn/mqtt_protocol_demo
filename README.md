@@ -92,6 +92,8 @@ node airPurifier.js
 - **Fan power on functionality**
   - If fan speed is greater then 0, the fan is switched on.
   - Else it is switched off.
+- Sample output screenshots from the Air Purifier simulator
+  ![Air Purifier CMD output screenshots](air_purifier_cmd.png)
 
 ## **APIs used (Postman Collection)**
 
